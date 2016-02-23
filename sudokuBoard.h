@@ -27,7 +27,7 @@ class sudokuBoard {
  private:
 
   int size; // pointer-based array size
-  vector< vector<int> > board;
+  vector< vector<T> > board;
 }; // SudokuBoard
 
 
@@ -38,7 +38,7 @@ sudokuBoard<T>::sudokuBoard( int boardSize )  {
   size = ( boardSize%3==0 ? boardSize : 9 ); // validate arraySize
 
   for(i = 0 ; i < size ; i++){ 
-    vector<int> tmp;
+    vector<T> tmp;
 
     for(j = 0 ; j < size ; j++){
       tmp.push_back(0);
