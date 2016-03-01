@@ -1,3 +1,5 @@
+//sudBoard.h
+
 #ifndef SUDOKUBOARD_H
 #define SUDOKUBOARD_H
 
@@ -181,4 +183,8 @@ int sudokuBoard<T>::winCheck(){
   return(winCheck);
 }
 
+template,typename T>
+int sudokuBoard<T>::winCheck(){
+
+}
 #endif
